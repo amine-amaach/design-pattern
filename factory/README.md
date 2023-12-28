@@ -54,3 +54,6 @@ Here, `Shape` is the interface that defines the behavior of shapes, and `Circle`
 This way, the client code (`main()` function in this case) doesn't need to know the exact type of the object being created; it relies on the factory method to provide the appropriate object based on the input.
 
 You can extend this pattern by adding more shapes or modifying the factory method to accommodate additional types without changing the client code, making it more flexible and maintainable.
+
+# The implemented example:
+![Facotry Design](docs/factory-design-pattern.png)
